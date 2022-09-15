@@ -1,6 +1,6 @@
 node {
     stage('Preparation') {
-        git 'https://github.com/techierishi/jstodo-k8s.git'
+        git 'https://github.com/techierishi/jstodo.git'
         sh '''
         pwd
         ls -lrt
